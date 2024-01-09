@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div class="flex justify-between">
+            <button id="bold" class="bg-orange-600 rounded p-1 hover:bg-orange-800 text-white my-3 mx-10">Text bold</button>
+            <button id="italic"  class="bg-orange-600 rounded p-1 hover:bg-orange-800 text-white my-3 mx-10">Text Italic</button>
+            <button id="underline" class="bg-orange-600 rounded p-1 hover:bg-orange-800 text-white my-3 mx-10">Underline</button>
+            <button id="left" onclick="textLeft()" class="bg-orange-600 rounded p-1 hover:bg-orange-800 text-white my-3 mx-10">Text left</button>
+            <button id="center" onclick="textCenter()" class="bg-orange-600 rounded p-1 hover:bg-orange-800 text-white my-3 mx-10">Text center</button>
+            <button id="right" onclick="textRight()" class="bg-orange-600 rounded p-1 hover:bg-orange-800 text-white my-3 mx-10">Text right</button>
+            <input id="input-number" class="border-black border-2  my-3 mx-10 rounded text-center" type="number" value="15" min="1" max="40" placeholder="Size">
+            <input id="input-color" class=" my-3 mx-10" type="color">
+        </div>
+        <div class="flex justify-center">
+            <textarea class=" border-2 border-black rounded-xl text-center"  id="text-area" cols="150" rows="10"></textarea>
+        </div>
+    </section>
+
+
+    <script src="js/function.js"></script>
+    <script src="js/bold.js"></script>
+    <script src="js/italic.js"></script>
+    <script src="js/underline.js"></script>
+    <script src="js/input.js"></script>
+</body>
+</html>
