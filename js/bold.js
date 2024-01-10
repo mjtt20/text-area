@@ -3,7 +3,10 @@ document.getElementById('bold').addEventListener('click', function(){
     if(grabTheArea.style.fontWeight === 'normal'){
         grabTheArea.style.fontWeight = 'bold'
     }
-    else{
+    else if(grabTheArea.style.fontWeight === 'bold'){
         grabTheArea.style.fontWeight = 'normal'
+    }
+    else{
+        grabTheArea.style.fontWeight = 'bold';
     }
 })

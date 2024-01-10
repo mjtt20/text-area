@@ -3,6 +3,9 @@ document.getElementById('underline').addEventListener('click', function(){
     if(grabTheArea.style.textDecoration === 'none'){
         grabTheArea.style.textDecoration = 'underline';
     }
+    else if(grabTheArea.style.textDecoration === 'underline'){
+        grabTheArea.style.textDecoration = 'none';
+    }
     else{
         grabTheArea.style.textDecoration = 'none';
     }
