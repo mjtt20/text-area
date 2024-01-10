@@ -18,6 +18,6 @@ document.getElementById('italic').addEventListener('click', function(){
         grabTheArea.style.fontStyle = 'normal';
     }
     else{
-        grabTheArea.style.fontStyle = 'normal';
+        grabTheArea.style.fontStyle = 'italic';
     }
 })

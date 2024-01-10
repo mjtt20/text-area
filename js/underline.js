@@ -7,6 +7,6 @@ document.getElementById('underline').addEventListener('click', function(){
         grabTheArea.style.textDecoration = 'none';
     }
     else{
-        grabTheArea.style.textDecoration = 'none';
+        grabTheArea.style.textDecoration = 'underline';
     }
 })
